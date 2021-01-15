@@ -28,101 +28,117 @@ using namespace std;
 namespace phxkv
 {
 
-
-PhxKVServiceImpl :: PhxKVServiceImpl(const phxpaxos::NodeInfo & oMyNode, const phxpaxos::NodeInfoList & vecNodeList,
-        const std::string & sKVDBPath, const std::string & sPaxosLogPath)
-    : m_oPhxKV(oMyNode, vecNodeList, sKVDBPath, sPaxosLogPath)
-{
-}
-
-int PhxKVServiceImpl :: Init()
-{
-    return m_oPhxKV.RunPaxos();
-}
-
-Status PhxKVServiceImpl :: Put(ServerContext* context, const KVOperator * request, KVResponse * reply)
-{
-    if (!m_oPhxKV.IsIMMaster(request->key()))
+    PhxKVServiceImpl ::PhxKVServiceImpl(const phxpaxos::NodeInfo &oMyNode, const phxpaxos::NodeInfoList &vecNodeList,
+                                        const std::string &sKVDBPath, const std::string &sPaxosLogPath)
+        : m_oPhxKV(oMyNode, vecNodeList, sKVDBPath, sPaxosLogPath)
     {
-        reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
-        uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
-        reply->set_master_nodeid(llMasterNodeID);
-
-        PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu", 
-                llMasterNodeID, request->key().c_str(), request->version());
-        return Status::OK;
     }
 
-    PhxKVStatus status = m_oPhxKV.Put(request->key(), request->value(), request->version());
-    reply->set_ret((int)status);
-
-    PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), request->version());
-
-    return Status::OK;
-}
-
-Status PhxKVServiceImpl :: GetLocal(ServerContext* context, const KVOperator * request, KVResponse * reply)
-{
-    string sReadValue;
-    uint64_t llReadVersion = 0;
-
-    PhxKVStatus status = m_oPhxKV.GetLocal(request->key(), sReadValue, llReadVersion);
-    if (status == PhxKVStatus::SUCC)
+    int PhxKVServiceImpl ::Init()
     {
-        reply->mutable_data()->set_value(sReadValue);
-        reply->mutable_data()->set_version(llReadVersion);
-    }
-    else if (status == PhxKVStatus::KEY_NOTEXIST)
-    {
-        reply->mutable_data()->set_isdeleted(true);
-        reply->mutable_data()->set_version(llReadVersion);
+        return m_oPhxKV.RunPaxos();
     }
 
-    reply->set_ret((int)status);
-
-    PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), llReadVersion);
-
-    return Status::OK;
-}
-
-Status PhxKVServiceImpl :: GetGlobal(ServerContext* context, const KVOperator * request, KVResponse * reply)
-{
-    if (!m_oPhxKV.IsIMMaster(request->key()))
+    void PhxKVServiceImpl ::run(std::string sServerAddress)
     {
-        reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
-        uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
-        reply->set_master_nodeid(llMasterNodeID);
+        ServerBuilder builder;
+        // Listen on the given address without any authentication mechanism.
+        builder.AddListeningPort(sServerAddress, grpc::InsecureServerCredentials());
+        // Register "service_" as the instance through which we'll communicate with
+        // clients. In this case it corresponds to an *asynchronous* service.
+        builder.RegisterService(&service_);
+        // Get hold of the completion queue used for the asynchronous communication
+        // with the gRPC runtime.
+        cq_ = builder.AddCompletionQueue();
+        // Finally assemble the server.
+        server_ = builder.BuildAndStart();
+        std::cout << "Server listening on  " << sServerAddress << std::endl;
 
-        PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu", 
-                llMasterNodeID, request->key().c_str(), request->version());
-
-        return Status::OK;
+        // Proceed to the server's main loop.
+        HandleRpcs();
     }
+    // Status PhxKVServiceImpl :: Put(ServerContext* context, const KVOperator * request, KVResponse * reply)
+    // {
+    //     if (!m_oPhxKV.IsIMMaster(request->key()))
+    //     {
+    //         reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
+    //         uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
+    //         reply->set_master_nodeid(llMasterNodeID);
 
-    return GetLocal(context, request, reply);
-}
+    //         PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu",
+    //                 llMasterNodeID, request->key().c_str(), request->version());
+    //         return Status::OK;
+    //     }
 
-Status PhxKVServiceImpl :: Delete(ServerContext* context, const KVOperator * request, KVResponse * reply)
-{
-    if (!m_oPhxKV.IsIMMaster(request->key()))
-    {
-        reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
-        uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
-        reply->set_master_nodeid(llMasterNodeID);
+    //     PhxKVStatus status = m_oPhxKV.Put(request->key(), request->value(), request->version());
+    //     reply->set_ret((int)status);
 
-        PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu", 
-                llMasterNodeID, request->key().c_str(), request->version());
+    //     PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), request->version());
 
-        return Status::OK;
-    }
+    //     return Status::OK;
+    // }
 
-    PhxKVStatus status = m_oPhxKV.Delete(request->key(), request->version());
-    reply->set_ret((int)status);
+    // Status PhxKVServiceImpl :: GetLocal(ServerContext* context, const KVOperator * request, KVResponse * reply)
+    // {
+    //     string sReadValue;
+    //     uint64_t llReadVersion = 0;
 
-    PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), request->version());
+    //     PhxKVStatus status = m_oPhxKV.GetLocal(request->key(), sReadValue, llReadVersion);
+    //     if (status == PhxKVStatus::SUCC)
+    //     {
+    //         reply->mutable_data()->set_value(sReadValue);
+    //         reply->mutable_data()->set_version(llReadVersion);
+    //     }
+    //     else if (status == PhxKVStatus::KEY_NOTEXIST)
+    //     {
+    //         reply->mutable_data()->set_isdeleted(true);
+    //         reply->mutable_data()->set_version(llReadVersion);
+    //     }
 
-    return Status::OK;
-}
+    //     reply->set_ret((int)status);
 
-}
+    //     PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), llReadVersion);
 
+    //     return Status::OK;
+    // }
+
+    // Status PhxKVServiceImpl :: GetGlobal(ServerContext* context, const KVOperator * request, KVResponse * reply)
+    // {
+    //     if (!m_oPhxKV.IsIMMaster(request->key()))
+    //     {
+    //         reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
+    //         uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
+    //         reply->set_master_nodeid(llMasterNodeID);
+
+    //         PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu",
+    //                 llMasterNodeID, request->key().c_str(), request->version());
+
+    //         return Status::OK;
+    //     }
+
+    //     return GetLocal(context, request, reply);
+    // }
+
+    // Status PhxKVServiceImpl :: Delete(ServerContext* context, const KVOperator * request, KVResponse * reply)
+    // {
+    //     if (!m_oPhxKV.IsIMMaster(request->key()))
+    //     {
+    //         reply->set_ret((int)PhxKVStatus::MASTER_REDIRECT);
+    //         uint64_t llMasterNodeID = m_oPhxKV.GetMaster(request->key()).GetNodeID();
+    //         reply->set_master_nodeid(llMasterNodeID);
+
+    //         PLImp("I'm not master, need redirect, master nodeid i saw %lu, key %s version %lu",
+    //                 llMasterNodeID, request->key().c_str(), request->version());
+
+    //         return Status::OK;
+    //     }
+
+    //     PhxKVStatus status = m_oPhxKV.Delete(request->key(), request->version());
+    //     reply->set_ret((int)status);
+
+    //     PLImp("ret %d, key %s version %lu", reply->ret(), request->key().c_str(), request->version());
+
+    //     return Status::OK;
+    // }
+
+} // namespace phxkv

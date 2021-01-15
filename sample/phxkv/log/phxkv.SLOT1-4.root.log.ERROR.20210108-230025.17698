@@ -1,0 +1,1311 @@
+Log file created at: 2021/01/08 23:00:25
+Running on machine: SLOT1-4
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0108 23:00:25.508546 17698 logger_google.cpp:99] init_glog_warning_file
+E0108 23:00:25.511970 17699 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos13AcceptorStateE::Load empty database [0m
+E0108 23:00:25.512360 17699 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0108 23:00:25.512673 17700 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos13AcceptorStateE::Load empty database [0m
+E0108 23:00:25.512730 17700 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0108 23:00:25.513000 17701 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos13AcceptorStateE::Load empty database [0m
+E0108 23:00:25.513051 17701 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0108 23:00:25.513392 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:25.513495 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:25.513645 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:26.055714 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:26.263823 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:26.373629 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:26.790019 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:26.890059 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:27.194823 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:27.436343 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:27.702224 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:27.703183 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:27.721020 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 23:00:27.722193 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:27.835357 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:27.967658 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:28.462311 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:28.531859 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:28.792887 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 0 [0m
+E0108 23:00:28.805611 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:28.822825 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 0 [0m
+E0108 23:00:28.822890 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 52 socket ip 10.0.0.13 errno 0 [0m
+E0108 23:00:28.986963 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:28.992432 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:29.016021 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:29.022696 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:29.022779 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.13 [0m
+E0108 23:00:29.076822 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:29.076881 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 52 socket ip 10.0.0.13 errno 115 [0m
+E0108 23:00:29.215991 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:29.239464 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:29.260995 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:29.276945 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:29.277212 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.13 [0m
+E0108 23:00:29.331009 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:29.331324 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 52 socket ip 10.0.0.13 errno 115 [0m
+E0108 23:00:29.344496 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:29.439564 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:29.463158 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:29.463192 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2
+E0108 23:00:29.530405 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:29.531716 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.13 [0m
+E0108 23:00:29.584456 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:29.646842 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:29.664131 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:29.687685 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:29.720343 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:29.784818 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:29.838903 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:29.887513 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:29.911080 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:30.038383 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:30.092478 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:30.111840 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:30.135334 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:30.175683 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:30.186599 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:30.292404 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:30.335387 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:30.346545 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 53 socket ip 10.0.0.14 errno 115 [0m
+E0108 23:00:30.353014 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:30.358935 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:30.546239 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.14 [0m
+E0108 23:00:30.558634 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:30.582185 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:30.735769 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:30.782929 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:30.806511 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:31.006642 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:31.030218 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:31.174873 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:31.192538 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:31.198160 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:31.230265 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:31.253770 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:31.269171 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:31.295948 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:31.453922 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:31.477505 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 57 socket ip 10.0.0.47 errno 115 [0m
+E0108 23:00:31.678289 17717 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 10.0.0.47 [0m
+E0108 23:00:31.815349 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:31.914045 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3
+E0108 23:00:32.122954 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:32.147315 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:32.670338 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:32.679392 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:32.723532 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:32.816666 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:33.018959 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:33.244441 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:33.327837 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:33.378829 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:33.558595 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 23:00:34.037168 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:34.080214 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:34.119990 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:34.188990 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:34.194994 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:34.254843 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:34.309270 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 23:00:34.543999 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:34.582144 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:34.760143 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:34.928349 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:35.082096 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:35.119194 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:35.269089 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:35.539404 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:35.917532 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:35.932777 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:36.028345 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:36.181663 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:36.229717 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:36.420881 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:36.818879 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:36.955498 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 5
+E0108 23:00:37.322863 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:37.409049 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:37.630695 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:37.776082 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:37.960428 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:38.585966 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:38.612740 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:38.626267 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:38.649559 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:39.095137 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:39.275420 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:39.476267 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:39.529861 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 7
+E0108 23:00:40.020351 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 6
+E0108 23:00:40.028625 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 7
+E0108 23:00:40.388422 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:40.444263 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 8
+E0108 23:00:40.500118 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 7
+E0108 23:00:40.500545 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:40.529062 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 8
+E0108 23:00:40.555696 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 6
+E0108 23:00:40.611310 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 5
+E0108 23:00:40.611677 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:40.666801 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 4
+E0108 23:00:40.722647 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 3
+E0108 23:00:40.807932 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 2
+E0108 23:00:40.853824 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 9 now instanceid 9
+E0108 23:00:40.863523 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 1
+E0108 23:00:40.919087 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 0
+E0108 23:00:40.955739 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 9 now instanceid 10
+E0108 23:00:40.974589 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 9
+E0108 23:00:41.030195 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 10
+E0108 23:00:41.040493 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:41.064730 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 23:00:41.085791 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 11
+E0108 23:00:41.127216 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 12 now instanceid 12
+E0108 23:00:41.141268 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 12
+E0108 23:00:41.196843 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 13
+E0108 23:00:41.252503 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 14
+E0108 23:00:41.252912 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:41.308102 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 15
+E0108 23:00:41.363629 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 16
+E0108 23:00:41.399986 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 12 now instanceid 13
+E0108 23:00:41.419482 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 17
+E0108 23:00:41.475010 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 18
+E0108 23:00:41.530465 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 19
+E0108 23:00:41.530825 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:41.586009 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 20
+E0108 23:00:41.586405 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:41.641472 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 21
+E0108 23:00:41.641834 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:41.673898 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 14 now instanceid 15
+E0108 23:00:41.697073 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 22
+E0108 23:00:41.704409 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 14 now instanceid 15
+E0108 23:00:41.752768 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 23
+E0108 23:00:41.808528 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 24
+E0108 23:00:41.864256 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 25
+E0108 23:00:41.920179 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 26
+E0108 23:00:41.975698 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 27
+E0108 23:00:42.031380 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 28
+E0108 23:00:42.086949 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 29
+E0108 23:00:42.142747 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 30
+E0108 23:00:42.198503 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 31
+E0108 23:00:42.199280 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:42.254113 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 32
+E0108 23:00:42.309262 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 18 now instanceid 19
+E0108 23:00:42.309648 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 33
+E0108 23:00:42.350775 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 18 now instanceid 19
+E0108 23:00:42.365401 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 34
+E0108 23:00:42.420727 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 35
+E0108 23:00:42.476285 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 36
+E0108 23:00:42.527091 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 20 now instanceid 20
+E0108 23:00:42.531653 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 37
+E0108 23:00:42.531991 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:42.587253 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 38
+E0108 23:00:42.587571 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:42.642740 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 39
+E0108 23:00:42.643139 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:42.698335 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 40
+E0108 23:00:42.754108 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 41
+E0108 23:00:42.809831 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 42
+E0108 23:00:42.865453 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 43
+E0108 23:00:42.921208 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 44
+E0108 23:00:42.962975 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 22 now instanceid 23
+E0108 23:00:42.976722 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 45
+E0108 23:00:42.986901 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:43.030498 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 22 now instanceid 23
+E0108 23:00:43.032395 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 46
+E0108 23:00:43.088025 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 47
+E0108 23:00:43.143632 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 48
+E0108 23:00:43.199209 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 49
+E0108 23:00:43.254856 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 50
+E0108 23:00:43.310439 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 51
+E0108 23:00:43.310820 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:43.366134 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 52
+E0108 23:00:43.386291 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 24 now instanceid 26
+E0108 23:00:43.422008 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 53
+E0108 23:00:43.432185 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:43.478062 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 54
+E0108 23:00:43.533638 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 55
+E0108 23:00:43.534067 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:43.589382 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 56
+E0108 23:00:43.589789 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:43.645174 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 57
+E0108 23:00:43.645531 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:43.700925 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 58
+E0108 23:00:43.710317 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 26 now instanceid 27
+E0108 23:00:43.711207 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:43.756623 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 59
+E0108 23:00:43.812335 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 60
+E0108 23:00:43.861673 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 28 now instanceid 28
+E0108 23:00:43.867866 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 61
+E0108 23:00:43.923368 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 62
+E0108 23:00:43.979226 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 63
+E0108 23:00:44.034935 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 64
+E0108 23:00:44.090678 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 65
+E0108 23:00:44.091048 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:44.146262 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 66
+E0108 23:00:44.201910 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 67
+E0108 23:00:44.266873 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 30 now instanceid 31
+E0108 23:00:44.279608 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 30 now instanceid 31
+E0108 23:00:44.303550 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 68
+E0108 23:00:44.359104 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 69
+E0108 23:00:44.414817 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 70
+E0108 23:00:44.470331 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 71
+E0108 23:00:44.526049 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 72
+E0108 23:00:44.581591 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 73
+E0108 23:00:44.581943 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:44.637120 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 74
+E0108 23:00:44.637521 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:44.692592 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 75
+E0108 23:00:44.692963 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:44.748077 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 76
+E0108 23:00:44.803822 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 77
+E0108 23:00:44.811866 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 35 now instanceid 35
+E0108 23:00:44.814793 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 35 now instanceid 35
+E0108 23:00:44.859459 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 78
+E0108 23:00:44.859691 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:44.914984 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 79
+E0108 23:00:44.971181 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 80
+E0108 23:00:45.026753 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 81
+E0108 23:00:45.082355 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 82
+E0108 23:00:45.082684 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:45.137926 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 83
+E0108 23:00:45.193603 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 84
+E0108 23:00:45.218171 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 37 now instanceid 37
+E0108 23:00:45.249208 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 85
+E0108 23:00:45.304872 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 86
+E0108 23:00:45.360596 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 87
+E0108 23:00:45.416380 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 88
+E0108 23:00:45.441126 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 37 now instanceid 38
+E0108 23:00:45.472137 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 89
+E0108 23:00:45.505211 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 39 now instanceid 39
+E0108 23:00:45.527729 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 90
+E0108 23:00:45.591459 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 91
+E0108 23:00:45.591805 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:45.644223 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:45.647279 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 92
+E0108 23:00:45.754739 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 93
+E0108 23:00:45.755159 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:45.810436 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 94
+E0108 23:00:45.865996 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 95
+E0108 23:00:45.921630 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 96
+E0108 23:00:45.931972 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:45.977116 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 97
+E0108 23:00:46.033047 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 98
+E0108 23:00:46.088549 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 99
+E0108 23:00:46.144126 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 100
+E0108 23:00:46.150439 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 41 now instanceid 43
+E0108 23:00:46.177426 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 41 now instanceid 43
+E0108 23:00:46.199636 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 101
+E0108 23:00:46.222299 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 43 now instanceid 43
+E0108 23:00:46.255421 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 102
+E0108 23:00:46.255772 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:46.311051 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 103
+E0108 23:00:46.312058 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:46.367113 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 104
+E0108 23:00:46.423032 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 105
+E0108 23:00:46.478392 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 106
+E0108 23:00:46.533943 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 107
+E0108 23:00:46.589501 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 108
+E0108 23:00:46.644997 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 109
+E0108 23:00:46.645376 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:46.700562 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 110
+E0108 23:00:46.701020 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:46.756259 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 111
+E0108 23:00:46.756603 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:46.812085 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 112
+E0108 23:00:46.827721 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 45 now instanceid 47
+E0108 23:00:46.867880 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 113
+E0108 23:00:46.923507 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 114
+E0108 23:00:46.979130 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 115
+E0108 23:00:47.034654 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 116
+E0108 23:00:47.035029 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:47.036132 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:47.036294 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:47.061611 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 47 now instanceid 49
+E0108 23:00:47.090231 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 117
+E0108 23:00:47.146140 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 118
+E0108 23:00:47.162477 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 47 now instanceid 49
+E0108 23:00:47.201524 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 119
+E0108 23:00:47.257086 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 120
+E0108 23:00:47.312541 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 121
+E0108 23:00:47.368263 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 122
+E0108 23:00:47.424036 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 123
+E0108 23:00:47.479909 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 124
+E0108 23:00:47.535687 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 125
+E0108 23:00:47.591209 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 126
+E0108 23:00:47.621047 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 52 now instanceid 52
+E0108 23:00:47.646755 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 127
+E0108 23:00:47.647063 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:47.702327 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 128
+E0108 23:00:47.702687 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:47.757639 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 129
+E0108 23:00:47.758008 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:47.813419 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 130
+E0108 23:00:47.869186 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 131
+E0108 23:00:47.915802 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 54 now instanceid 54
+E0108 23:00:47.924659 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 132
+E0108 23:00:47.957801 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 54 now instanceid 55
+E0108 23:00:47.980285 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 133
+E0108 23:00:48.035967 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 134
+E0108 23:00:48.091545 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 135
+E0108 23:00:48.147231 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 136
+E0108 23:00:48.202831 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 137
+E0108 23:00:48.258631 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 138
+E0108 23:00:48.314361 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 139
+E0108 23:00:48.395100 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 140
+E0108 23:00:48.450491 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 141
+E0108 23:00:48.461997 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 56 now instanceid 58
+E0108 23:00:48.485301 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 56 now instanceid 58
+E0108 23:00:48.506220 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 142
+E0108 23:00:48.561677 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 143
+E0108 23:00:48.617084 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 144
+E0108 23:00:48.672605 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 145
+E0108 23:00:48.673069 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:48.728241 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 146
+E0108 23:00:48.728679 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:48.779000 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 58 now instanceid 59
+E0108 23:00:48.783963 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 147
+E0108 23:00:48.784257 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:48.839501 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 148
+E0108 23:00:48.894879 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 149
+E0108 23:00:48.905330 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:48.950610 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 150
+E0108 23:00:48.950938 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:48.969200 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 60 now instanceid 61
+E0108 23:00:49.006264 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 151
+E0108 23:00:49.006583 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:49.061900 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 152
+E0108 23:00:49.117727 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 153
+E0108 23:00:49.153558 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 60 now instanceid 62
+E0108 23:00:49.173440 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 154
+E0108 23:00:49.228902 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 155
+E0108 23:00:49.284508 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 156
+E0108 23:00:49.340225 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 157
+E0108 23:00:49.340585 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:49.395754 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 158
+E0108 23:00:49.440157 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 62 now instanceid 63
+E0108 23:00:49.452158 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 159
+E0108 23:00:49.494563 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 62 now instanceid 64
+E0108 23:00:49.507920 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 160
+E0108 23:00:49.563561 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 161
+E0108 23:00:49.619110 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 162
+E0108 23:00:49.656761 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 65 now instanceid 65
+E0108 23:00:49.674868 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 163
+E0108 23:00:49.675364 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:49.730646 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 164
+E0108 23:00:49.731031 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:49.786442 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 165
+E0108 23:00:49.786809 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:49.842135 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 166
+E0108 23:00:49.897583 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 167
+E0108 23:00:49.897873 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:49.953155 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 168
+E0108 23:00:50.008574 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 169
+E0108 23:00:50.059727 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 67 now instanceid 68
+E0108 23:00:50.064077 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 170
+E0108 23:00:50.064397 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:50.119717 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 171
+E0108 23:00:50.153437 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 67 now instanceid 68
+E0108 23:00:50.175304 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 172
+E0108 23:00:50.230726 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 173
+E0108 23:00:50.286409 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 174
+E0108 23:00:50.342195 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 175
+E0108 23:00:50.398119 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 176
+E0108 23:00:50.453754 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 177
+E0108 23:00:50.454344 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:50.509460 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 178
+E0108 23:00:50.509768 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:50.556977 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 69 now instanceid 70
+E0108 23:00:50.564970 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 179
+E0108 23:00:50.620797 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 180
+E0108 23:00:50.676564 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 181
+E0108 23:00:50.676878 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:50.732157 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 182
+E0108 23:00:50.732550 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:50.787726 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 183
+E0108 23:00:50.788050 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:50.843302 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 184
+E0108 23:00:50.898875 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 185
+E0108 23:00:50.954449 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 186
+E0108 23:00:51.010362 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 187
+E0108 23:00:51.018067 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 73 now instanceid 75
+E0108 23:00:51.065955 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 188
+E0108 23:00:51.081594 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 73 now instanceid 74
+E0108 23:00:51.121635 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 189
+E0108 23:00:51.177453 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 190
+E0108 23:00:51.233351 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 191
+E0108 23:00:51.289000 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 192
+E0108 23:00:51.344434 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 193
+E0108 23:00:51.399931 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 194
+E0108 23:00:51.455736 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 195
+E0108 23:00:51.456251 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 75 now instanceid 77
+E0108 23:00:51.511436 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 196
+E0108 23:00:51.567203 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 197
+E0108 23:00:51.622807 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 198
+E0108 23:00:51.633293 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:51.678409 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 199
+E0108 23:00:51.678705 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:51.734027 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 200
+E0108 23:00:51.734431 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:51.789664 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 201
+E0108 23:00:51.790068 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:51.845299 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 202
+E0108 23:00:51.900882 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 203
+E0108 23:00:51.944937 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 79 now instanceid 79
+E0108 23:00:51.956686 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 204
+E0108 23:00:51.957005 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:51.957526 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:52.002357 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 79 now instanceid 80
+E0108 23:00:52.012615 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 205
+E0108 23:00:52.068106 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 206
+E0108 23:00:52.123695 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 207
+E0108 23:00:52.179337 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 208
+E0108 23:00:52.211462 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 79 now instanceid 81
+E0108 23:00:52.234995 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 209
+E0108 23:00:52.290863 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 210
+E0108 23:00:52.346374 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 211
+E0108 23:00:52.402035 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 212
+E0108 23:00:52.457562 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 213
+E0108 23:00:52.513399 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 214
+E0108 23:00:52.568835 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 215
+E0108 23:00:52.624449 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 216
+E0108 23:00:52.650139 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 84 now instanceid 84
+E0108 23:00:52.680279 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 217
+E0108 23:00:52.680661 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:52.736038 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 218
+E0108 23:00:52.736410 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:52.736501 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:52.791792 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 219
+E0108 23:00:52.792876 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:52.848124 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 220
+E0108 23:00:52.903883 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 221
+E0108 23:00:52.914794 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 86 now instanceid 85
+E0108 23:00:52.959455 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 222
+E0108 23:00:52.979516 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 86 now instanceid 86
+E0108 23:00:53.014755 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 223
+E0108 23:00:53.070271 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 224
+E0108 23:00:53.125636 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 225
+E0108 23:00:53.181274 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 226
+E0108 23:00:53.236771 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 227
+E0108 23:00:53.292312 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 228
+E0108 23:00:53.347688 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 229
+E0108 23:00:53.403589 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 230
+E0108 23:00:53.459226 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 231
+E0108 23:00:53.514926 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 232
+E0108 23:00:53.515619 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:53.518330 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 88 now instanceid 89
+E0108 23:00:53.570798 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 233
+E0108 23:00:53.592164 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 90 now instanceid 90
+E0108 23:00:53.626260 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 234
+E0108 23:00:53.735580 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 235
+E0108 23:00:53.735987 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:53.746799 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 90 now instanceid 92
+E0108 23:00:53.791261 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 236
+E0108 23:00:53.791595 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:53.846993 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 237
+E0108 23:00:53.847390 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:53.902670 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 238
+E0108 23:00:53.958539 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 239
+E0108 23:00:54.014384 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 240
+E0108 23:00:54.069999 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 241
+E0108 23:00:54.125746 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 242
+E0108 23:00:54.181330 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 243
+E0108 23:00:54.187323 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.236905 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 244
+E0108 23:00:54.292701 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 245
+E0108 23:00:54.313715 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 95 now instanceid 95
+E0108 23:00:54.348049 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 246
+E0108 23:00:54.403592 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 247
+E0108 23:00:54.414212 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.414688 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.459328 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 248
+E0108 23:00:54.515012 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 249
+E0108 23:00:54.515641 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.534973 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 95 now instanceid 96
+E0108 23:00:54.569443 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 95 now instanceid 96
+E0108 23:00:54.570930 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 250
+E0108 23:00:54.571235 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.626646 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 251
+E0108 23:00:54.637006 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:54.682410 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 252
+E0108 23:00:54.738095 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 253
+E0108 23:00:54.738505 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:54.793736 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 254
+E0108 23:00:54.794121 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:54.849294 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 255
+E0108 23:00:54.849690 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:54.904882 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 256
+E0108 23:00:54.960618 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 257
+E0108 23:00:55.016299 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 258
+E0108 23:00:55.072036 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 259
+E0108 23:00:55.127730 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 260
+E0108 23:00:55.178627 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 99 now instanceid 99
+E0108 23:00:55.182029 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 99 now instanceid 100
+E0108 23:00:55.183470 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 261
+E0108 23:00:55.239145 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 262
+E0108 23:00:55.294663 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 263
+E0108 23:00:55.336334 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 101 now instanceid 101
+E0108 23:00:55.350203 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 264
+E0108 23:00:55.406042 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 265
+E0108 23:00:55.461695 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 266
+E0108 23:00:55.517300 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 267
+E0108 23:00:55.573062 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 268
+E0108 23:00:55.628876 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 269
+E0108 23:00:55.629217 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:55.735435 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 270
+E0108 23:00:55.759829 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 104 now instanceid 104
+E0108 23:00:55.791079 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 271
+E0108 23:00:55.791512 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:55.846712 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 272
+E0108 23:00:55.847025 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:55.847038 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:55.865511 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 104 now instanceid 104
+E0108 23:00:55.886235 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 104 now instanceid 105
+E0108 23:00:55.902472 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 273
+E0108 23:00:55.902858 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:55.957989 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 274
+E0108 23:00:56.013536 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 275
+E0108 23:00:56.069114 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 276
+E0108 23:00:56.069419 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:56.124828 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 277
+E0108 23:00:56.180508 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 278
+E0108 23:00:56.235967 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 279
+E0108 23:00:56.291687 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 280
+E0108 23:00:56.347242 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 281
+E0108 23:00:56.402791 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 282
+E0108 23:00:56.422556 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 108 now instanceid 108
+E0108 23:00:56.458387 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 283
+E0108 23:00:56.458709 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:56.514256 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 284
+E0108 23:00:56.569792 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 285
+E0108 23:00:56.625278 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 286
+E0108 23:00:56.680734 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 287
+E0108 23:00:56.712198 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 110 now instanceid 109
+E0108 23:00:56.736266 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 288
+E0108 23:00:56.792125 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 289
+E0108 23:00:56.792515 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:56.802832 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 110 now instanceid 111
+E0108 23:00:56.847960 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 290
+E0108 23:00:56.848364 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:56.903542 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 291
+E0108 23:00:56.903944 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:56.959350 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 292
+E0108 23:00:56.969616 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:56.979777 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 110 now instanceid 111
+E0108 23:00:57.014994 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 293
+E0108 23:00:57.070672 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 294
+E0108 23:00:57.071271 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:57.071708 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:57.126349 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 295
+E0108 23:00:57.181804 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 296
+E0108 23:00:57.237195 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 297
+E0108 23:00:57.292939 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 298
+E0108 23:00:57.295384 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 112 now instanceid 113
+E0108 23:00:57.348562 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 299
+E0108 23:00:57.404351 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 300
+E0108 23:00:57.460194 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 301
+E0108 23:00:57.484148 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 114 now instanceid 115
+E0108 23:00:57.516033 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 302
+E0108 23:00:57.571652 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 303
+E0108 23:00:57.571972 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:57.572372 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:57.627277 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 304
+E0108 23:00:57.682775 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 305
+E0108 23:00:57.738467 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 306
+E0108 23:00:57.794046 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 307
+E0108 23:00:57.794389 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:57.849684 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 308
+E0108 23:00:57.850126 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:57.905838 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 309
+E0108 23:00:57.906200 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:57.954936 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 116 now instanceid 117
+E0108 23:00:57.961347 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 310
+E0108 23:00:57.961833 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:57.977589 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 116 now instanceid 117
+E0108 23:00:58.057384 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 311
+E0108 23:00:58.112953 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 312
+E0108 23:00:58.168833 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 313
+E0108 23:00:58.224282 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 314
+E0108 23:00:58.245494 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 119 now instanceid 119
+E0108 23:00:58.279791 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 315
+E0108 23:00:58.335340 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 316
+E0108 23:00:58.390849 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 317
+E0108 23:00:58.446588 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 318
+E0108 23:00:58.502226 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 319
+E0108 23:00:58.515748 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 121 now instanceid 120
+E0108 23:00:58.558003 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 320
+E0108 23:00:58.613802 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 321
+E0108 23:00:58.669368 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 322
+E0108 23:00:58.725059 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 323
+E0108 23:00:58.780846 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 324
+E0108 23:00:58.836894 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 325
+E0108 23:00:58.837543 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:58.892676 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 326
+E0108 23:00:58.893049 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:58.948130 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 327
+E0108 23:00:58.948487 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:58.951221 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 123 now instanceid 124
+E0108 23:00:59.003669 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 328
+E0108 23:00:59.059305 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 329
+E0108 23:00:59.114921 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 330
+E0108 23:00:59.170516 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 331
+E0108 23:00:59.170900 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:59.226106 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 332
+E0108 23:00:59.236845 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 125 now instanceid 126
+E0108 23:00:59.281563 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 333
+E0108 23:00:59.336988 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 334
+E0108 23:00:59.392768 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 335
+E0108 23:00:59.428903 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 127 now instanceid 126
+E0108 23:00:59.448603 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 336
+E0108 23:00:59.504374 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 337
+E0108 23:00:59.560070 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 338
+E0108 23:00:59.615701 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 339
+E0108 23:00:59.671380 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 340
+E0108 23:00:59.674609 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 127 now instanceid 128
+E0108 23:00:59.726872 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 341
+E0108 23:00:59.737064 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 129 now instanceid 129
+E0108 23:00:59.782562 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 342
+E0108 23:00:59.792950 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:00:59.838083 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 343
+E0108 23:00:59.838443 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:59.893672 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 344
+E0108 23:00:59.894006 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:00:59.949213 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 345
+E0108 23:00:59.949638 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:00.030011 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 346
+E0108 23:01:00.085511 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 347
+E0108 23:01:00.141117 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 348
+E0108 23:01:00.141433 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:00.186117 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 131 now instanceid 131
+E0108 23:01:00.196799 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 349
+E0108 23:01:00.252332 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 350
+E0108 23:01:00.308243 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 351
+E0108 23:01:00.363911 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 352
+E0108 23:01:00.419584 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 353
+E0108 23:01:00.475493 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 354
+E0108 23:01:00.531067 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 355
+E0108 23:01:00.586752 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 356
+E0108 23:01:00.602807 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 133 now instanceid 134
+E0108 23:01:00.642256 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 357
+E0108 23:01:00.666412 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 133 now instanceid 135
+E0108 23:01:00.697772 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 358
+E0108 23:01:00.698110 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:00.753381 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 359
+E0108 23:01:00.809079 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 360
+E0108 23:01:00.864917 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 361
+E0108 23:01:00.865310 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:00.920492 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 362
+E0108 23:01:00.920924 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:00.976238 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:00.976558 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 363
+E0108 23:01:00.977013 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:01.032483 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 364
+E0108 23:01:01.063309 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 135 now instanceid 136
+E0108 23:01:01.088310 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 365
+E0108 23:01:01.143924 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 366
+E0108 23:01:01.199589 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 367
+E0108 23:01:01.255162 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 368
+E0108 23:01:01.255525 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:01.322238 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 369
+E0108 23:01:01.378098 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 370
+E0108 23:01:01.434113 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 371
+E0108 23:01:01.490232 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 372
+E0108 23:01:01.544111 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 140 now instanceid 140
+E0108 23:01:01.546025 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 373
+E0108 23:01:01.572611 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 140 now instanceid 141
+E0108 23:01:01.601815 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 374
+E0108 23:01:01.657595 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 375
+E0108 23:01:01.713395 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 376
+E0108 23:01:01.769125 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 377
+E0108 23:01:01.824641 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 378
+E0108 23:01:01.880131 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 379
+E0108 23:01:01.880638 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:01.935876 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 380
+E0108 23:01:01.936267 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:01.991643 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 381
+E0108 23:01:01.992043 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:02.017474 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 142 now instanceid 143
+E0108 23:01:02.047314 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 382
+E0108 23:01:02.103700 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 383
+E0108 23:01:02.159394 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 384
+E0108 23:01:02.215322 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 385
+E0108 23:01:02.270987 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 386
+E0108 23:01:02.326797 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 387
+E0108 23:01:02.382853 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 388
+E0108 23:01:02.438544 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 389
+E0108 23:01:02.494256 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 390
+E0108 23:01:02.499402 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 146 now instanceid 146
+E0108 23:01:02.520790 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 146 now instanceid 146
+E0108 23:01:02.549930 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 391
+E0108 23:01:02.605777 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 392
+E0108 23:01:02.661813 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 393
+E0108 23:01:02.717448 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 394
+E0108 23:01:02.773116 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 395
+E0108 23:01:02.828894 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 396
+E0108 23:01:02.839149 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:02.884479 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 397
+E0108 23:01:02.884863 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:02.940120 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 398
+E0108 23:01:02.940501 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:02.986660 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 148 now instanceid 148
+E0108 23:01:02.996173 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 399
+E0108 23:01:02.996577 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:03.051756 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 400
+E0108 23:01:03.107360 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 401
+E0108 23:01:03.117691 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:03.163367 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 402
+E0108 23:01:03.219084 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 403
+E0108 23:01:03.243710 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:03.274863 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 404
+E0108 23:01:03.304984 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 150 now instanceid 152
+E0108 23:01:03.330605 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 405
+E0108 23:01:03.386132 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 406
+E0108 23:01:03.441857 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 407
+E0108 23:01:03.443554 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 153 now instanceid 153
+E0108 23:01:03.497777 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 408
+E0108 23:01:03.553458 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 409
+E0108 23:01:03.609025 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 410
+E0108 23:01:03.664680 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 411
+E0108 23:01:03.720459 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 412
+E0108 23:01:03.737913 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 153 now instanceid 154
+E0108 23:01:03.776301 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 413
+E0108 23:01:03.818346 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 155 now instanceid 155
+E0108 23:01:03.832151 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 414
+E0108 23:01:03.887895 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 415
+E0108 23:01:03.888309 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:03.943734 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 416
+E0108 23:01:03.944067 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:03.944128 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:03.999554 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 417
+E0108 23:01:03.999976 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:04.055349 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 418
+E0108 23:01:04.110955 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 419
+E0108 23:01:04.166666 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 420
+E0108 23:01:04.209736 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 157 now instanceid 157
+E0108 23:01:04.222275 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 421
+E0108 23:01:04.277992 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 422
+E0108 23:01:04.333703 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 423
+E0108 23:01:04.377099 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 157 now instanceid 158
+E0108 23:01:04.389369 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 424
+E0108 23:01:04.445114 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 425
+E0108 23:01:04.445626 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:04.500816 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 426
+E0108 23:01:04.556469 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 427
+E0108 23:01:04.612116 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 428
+E0108 23:01:04.667865 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 429
+E0108 23:01:04.671531 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 159 now instanceid 161
+E0108 23:01:04.723742 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 430
+E0108 23:01:04.779350 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 431
+E0108 23:01:04.835326 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 432
+E0108 23:01:04.891171 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 433
+E0108 23:01:04.891566 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:04.947160 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 434
+E0108 23:01:04.947587 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:05.003532 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 435
+E0108 23:01:05.003945 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:05.059577 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 436
+E0108 23:01:05.059892 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:05.060544 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:05.115547 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 437
+E0108 23:01:05.122895 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 163 now instanceid 163
+E0108 23:01:05.125452 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 163 now instanceid 162
+E0108 23:01:05.171543 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 438
+E0108 23:01:05.227437 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 439
+E0108 23:01:05.283401 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 440
+E0108 23:01:05.339278 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 441
+E0108 23:01:05.395347 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 442
+E0108 23:01:05.451431 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 443
+E0108 23:01:05.507571 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 444
+E0108 23:01:05.519784 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 165 now instanceid 166
+E0108 23:01:05.563551 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 445
+E0108 23:01:05.619563 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 446
+E0108 23:01:05.675514 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 447
+E0108 23:01:05.692209 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 165 now instanceid 166
+E0108 23:01:05.723632 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 165 now instanceid 166
+E0108 23:01:05.731376 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 448
+E0108 23:01:05.787557 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 449
+E0108 23:01:05.843516 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 450
+E0108 23:01:05.899652 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 451
+E0108 23:01:05.900058 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:05.955396 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 452
+E0108 23:01:05.955751 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:06.011364 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 453
+E0108 23:01:06.011771 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:06.067292 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 454
+E0108 23:01:06.123052 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 455
+E0108 23:01:06.145117 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 169 now instanceid 171
+E0108 23:01:06.178936 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 456
+E0108 23:01:06.234630 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 457
+E0108 23:01:06.290397 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 458
+E0108 23:01:06.346531 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 459
+E0108 23:01:06.402177 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 460
+E0108 23:01:06.457985 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 461
+E0108 23:01:06.474536 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 172 now instanceid 172
+E0108 23:01:06.513797 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 462
+E0108 23:01:06.557852 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 172 now instanceid 172
+E0108 23:01:06.569635 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 463
+E0108 23:01:06.625528 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 464
+E0108 23:01:06.631770 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:06.681687 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 465
+E0108 23:01:06.737545 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 466
+E0108 23:01:06.793356 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 467
+E0108 23:01:06.797466 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 174 now instanceid 175
+E0108 23:01:06.849017 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 468
+E0108 23:01:06.905122 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 469
+E0108 23:01:06.905457 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:06.961067 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 470
+E0108 23:01:06.961459 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:07.017165 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 471
+E0108 23:01:07.017549 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:07.072872 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 472
+E0108 23:01:07.106878 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 174 now instanceid 175
+E0108 23:01:07.128772 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 473
+E0108 23:01:07.184839 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 474
+E0108 23:01:07.185175 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:07.240979 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 475
+E0108 23:01:07.296851 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 476
+E0108 23:01:07.352725 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 477
+E0108 23:01:07.367038 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 176 now instanceid 177
+E0108 23:01:07.408926 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 478
+E0108 23:01:07.465227 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 479
+E0108 23:01:07.521423 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 480
+E0108 23:01:07.577450 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 481
+E0108 23:01:07.633329 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 482
+E0108 23:01:07.689007 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 483
+E0108 23:01:07.744707 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 484
+E0108 23:01:07.745458 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:07.762663 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 178 now instanceid 182
+E0108 23:01:07.800577 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 485
+E0108 23:01:07.857005 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 486
+E0108 23:01:07.894358 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 180 now instanceid 180
+E0108 23:01:07.913209 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 487
+E0108 23:01:07.913604 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:07.922067 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 180 now instanceid 181
+E0108 23:01:07.969132 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 488
+E0108 23:01:07.969502 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:08.025048 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 489
+E0108 23:01:08.025410 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.025436 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:08.080998 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 490
+E0108 23:01:08.136749 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 491
+E0108 23:01:08.192595 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 492
+E0108 23:01:08.202881 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.227600 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 23:01:08.248472 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 493
+E0108 23:01:08.304554 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 494
+E0108 23:01:08.360493 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 495
+E0108 23:01:08.416414 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 496
+E0108 23:01:08.472316 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 497
+E0108 23:01:08.482758 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.528208 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 498
+E0108 23:01:08.528545 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.577333 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 185 now instanceid 185
+E0108 23:01:08.584162 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 499
+E0108 23:01:08.640035 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 500
+E0108 23:01:08.657034 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 185 now instanceid 187
+E0108 23:01:08.695737 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 501
+E0108 23:01:08.729602 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 185 now instanceid 185
+E0108 23:01:08.751451 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 502
+E0108 23:01:08.807325 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 503
+E0108 23:01:08.863286 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 504
+E0108 23:01:08.919385 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 505
+E0108 23:01:08.919740 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.919808 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:08.920480 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:08.975471 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 506
+E0108 23:01:08.975908 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:09.034328 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 507
+E0108 23:01:09.034754 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:09.090509 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 508
+E0108 23:01:09.146373 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 509
+E0108 23:01:09.202464 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 510
+E0108 23:01:09.255383 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 190 now instanceid 190
+E0108 23:01:09.258388 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 511
+E0108 23:01:09.279503 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 190 now instanceid 190
+E0108 23:01:09.314386 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 512
+E0108 23:01:09.370420 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 513
+E0108 23:01:09.392753 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 190 now instanceid 190
+E0108 23:01:09.426822 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 514
+E0108 23:01:09.482976 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 515
+E0108 23:01:09.538851 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 516
+E0108 23:01:09.595149 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 517
+E0108 23:01:09.651161 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 518
+E0108 23:01:09.651536 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:09.707306 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 519
+E0108 23:01:09.763295 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 520
+E0108 23:01:09.819509 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 521
+E0108 23:01:09.875574 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 522
+E0108 23:01:09.931633 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 523
+E0108 23:01:09.932061 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:09.987799 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 524
+E0108 23:01:09.988204 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:10.002144 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 194 now instanceid 193
+E0108 23:01:10.015585 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 194 now instanceid 195
+E0108 23:01:10.043942 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 525
+E0108 23:01:10.044363 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:10.100131 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 526
+E0108 23:01:10.125669 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 194 now instanceid 195
+E0108 23:01:10.156338 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 527
+E0108 23:01:10.212374 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 528
+E0108 23:01:10.268544 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 529
+E0108 23:01:10.324780 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 530
+E0108 23:01:10.380869 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 531
+E0108 23:01:10.436873 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 532
+E0108 23:01:10.492894 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 533
+E0108 23:01:10.549188 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 534
+E0108 23:01:10.575111 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:10.600347 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 198 now instanceid 197
+E0108 23:01:10.621088 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 535
+E0108 23:01:10.677253 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 536
+E0108 23:01:10.733387 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 537
+E0108 23:01:10.789444 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 538
+E0108 23:01:10.845634 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 539
+E0108 23:01:10.901481 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 540
+E0108 23:01:10.905822 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 200 now instanceid 200
+E0108 23:01:10.957404 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 541
+E0108 23:01:10.957775 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:10.985767 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 200 now instanceid 202
+E0108 23:01:11.013314 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 542
+E0108 23:01:11.013708 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:11.069298 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 543
+E0108 23:01:11.069700 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:11.128788 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 544
+E0108 23:01:11.189131 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 545
+E0108 23:01:11.248750 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 546
+E0108 23:01:11.308109 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 547
+E0108 23:01:11.367729 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 548
+E0108 23:01:11.378762 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:11.427573 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 549
+E0108 23:01:11.447010 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 203 now instanceid 204
+E0108 23:01:11.487341 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 550
+E0108 23:01:11.546806 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 551
+E0108 23:01:11.565537 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 205 now instanceid 202
+E0108 23:01:11.606446 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 552
+E0108 23:01:11.637972 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 205 now instanceid 205
+E0108 23:01:11.665880 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 553
+E0108 23:01:11.666263 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:11.725293 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 554
+E0108 23:01:11.787451 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 555
+E0108 23:01:11.847263 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 556
+E0108 23:01:11.907021 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 557
+E0108 23:01:11.966523 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 558
+E0108 23:01:12.025995 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 559
+E0108 23:01:12.026373 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:12.085695 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 560
+E0108 23:01:12.086078 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:12.145071 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 561
+E0108 23:01:12.145467 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:12.146461 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 207 now instanceid 208
+E0108 23:01:12.204370 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 562
+E0108 23:01:12.264008 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 563
+E0108 23:01:12.314772 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 209 now instanceid 207
+E0108 23:01:12.323388 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 564
+E0108 23:01:12.398123 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 209 now instanceid 210
+E0108 23:01:12.402302 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 565
+E0108 23:01:12.461856 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 566
+E0108 23:01:12.463368 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:12.521441 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 567
+E0108 23:01:12.521786 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:12.581085 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 568
+E0108 23:01:12.640337 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 569
+E0108 23:01:12.699862 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 570
+E0108 23:01:12.759256 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 571
+E0108 23:01:12.818722 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 572
+E0108 23:01:12.878222 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 573
+E0108 23:01:12.901640 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 212 now instanceid 213
+E0108 23:01:12.937670 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 574
+E0108 23:01:12.997184 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 575
+E0108 23:01:13.052933 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 214 now instanceid 211
+E0108 23:01:13.056622 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 576
+E0108 23:01:13.116080 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 577
+E0108 23:01:13.116482 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:13.175498 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 578
+E0108 23:01:13.175873 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:13.175906 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:13.234295 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 214 now instanceid 215
+E0108 23:01:13.234973 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 579
+E0108 23:01:13.235334 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:13.235391 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:13.294314 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 580
+E0108 23:01:13.353611 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 581
+E0108 23:01:13.413362 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 582
+E0108 23:01:13.472965 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 583
+E0108 23:01:13.532742 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 584
+E0108 23:01:13.592489 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 585
+E0108 23:01:13.652061 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 586
+E0108 23:01:13.663938 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 216 now instanceid 217
+E0108 23:01:13.711429 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 587
+E0108 23:01:13.738142 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 218 now instanceid 215
+E0108 23:01:13.770886 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 588
+E0108 23:01:13.782058 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:13.830617 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 589
+E0108 23:01:13.890403 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 590
+E0108 23:01:13.949916 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 591
+E0108 23:01:13.987587 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 218 now instanceid 219
+E0108 23:01:14.009286 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 592
+E0108 23:01:14.068698 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 593
+E0108 23:01:14.128266 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 594
+E0108 23:01:14.187743 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 595
+E0108 23:01:14.188222 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:14.247200 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 596
+E0108 23:01:14.247629 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:14.306617 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 597
+E0108 23:01:14.307040 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:14.366098 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 598
+E0108 23:01:14.425455 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 599
+E0108 23:01:14.463354 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 222 now instanceid 220
+E0108 23:01:14.484875 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 600
+E0108 23:01:14.517127 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 222 now instanceid 222
+E0108 23:01:14.544261 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 601
+E0108 23:01:14.603638 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 602
+E0108 23:01:14.663389 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 603
+E0108 23:01:14.723153 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 604
+E0108 23:01:14.782490 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 605
+E0108 23:01:14.841958 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 606
+E0108 23:01:14.892783 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 224 now instanceid 224
+E0108 23:01:14.901536 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 607
+E0108 23:01:14.961129 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 608
+E0108 23:01:15.020776 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 609
+E0108 23:01:15.080210 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 610
+E0108 23:01:15.139853 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 611
+E0108 23:01:15.199483 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 612
+E0108 23:01:15.199841 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:15.210549 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 226 now instanceid 225
+E0108 23:01:15.259006 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 613
+E0108 23:01:15.259408 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:15.318801 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 614
+E0108 23:01:15.319299 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:15.358317 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 226 now instanceid 227
+E0108 23:01:15.378594 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 615
+E0108 23:01:15.379026 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:15.438381 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 616
+E0108 23:01:15.498167 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 617
+E0108 23:01:15.557950 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 618
+E0108 23:01:15.617660 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 619
+E0108 23:01:15.677456 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 620
+E0108 23:01:15.737143 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 621
+E0108 23:01:15.796694 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 622
+E0108 23:01:15.847980 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 228 now instanceid 231
+E0108 23:01:15.856103 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 623
+E0108 23:01:15.884891 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 231 now instanceid 228
+E0108 23:01:15.915534 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 624
+E0108 23:01:15.972041 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:15.978729 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 625
+E0108 23:01:16.041839 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 626
+E0108 23:01:16.104956 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 627
+E0108 23:01:16.168180 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 628
+E0108 23:01:16.231220 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 629
+E0108 23:01:16.268514 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 233 now instanceid 233
+E0108 23:01:16.294322 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 630
+E0108 23:01:16.368690 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 631
+E0108 23:01:16.369128 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:16.369407 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:16.432101 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 632
+E0108 23:01:16.432502 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:16.492143 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 233 now instanceid 234
+E0108 23:01:16.495321 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 633
+E0108 23:01:16.495738 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:16.558425 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 634
+E0108 23:01:16.621644 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 635
+E0108 23:01:16.684937 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 636
+E0108 23:01:16.748354 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 637
+E0108 23:01:16.751077 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 235 now instanceid 234
+E0108 23:01:16.811677 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 638
+E0108 23:01:16.874903 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 639
+E0108 23:01:16.937952 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 640
+E0108 23:01:16.938391 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:17.001066 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 641
+E0108 23:01:17.064107 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 642
+E0108 23:01:17.127136 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 643
+E0108 23:01:17.190173 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 644
+E0108 23:01:17.191679 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 237 now instanceid 238
+E0108 23:01:17.201436 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:17.253480 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 645
+E0108 23:01:17.316640 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 646
+E0108 23:01:17.379798 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 647
+E0108 23:01:17.443307 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 648
+E0108 23:01:17.484309 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 239 now instanceid 239
+E0108 23:01:17.488276 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 239 now instanceid 238
+E0108 23:01:17.506628 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 649
+E0108 23:01:17.507074 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:17.569907 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 650
+E0108 23:01:17.570407 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:17.633255 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 651
+E0108 23:01:17.633724 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:17.696542 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 652
+E0108 23:01:17.759940 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 653
+E0108 23:01:17.760355 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:17.823237 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 654
+E0108 23:01:17.886602 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 655
+E0108 23:01:17.980263 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 656
+E0108 23:01:18.043678 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 657
+E0108 23:01:18.044124 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:18.107334 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 658
+E0108 23:01:18.170617 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 659
+E0108 23:01:18.184876 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 244 now instanceid 244
+E0108 23:01:18.234021 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 660
+E0108 23:01:18.296968 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 661
+E0108 23:01:18.329612 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 244 now instanceid 244
+E0108 23:01:18.345446 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 244 now instanceid 242
+E0108 23:01:18.359995 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 662
+E0108 23:01:18.423162 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 663
+E0108 23:01:18.486331 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 664
+E0108 23:01:18.549599 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 665
+E0108 23:01:18.612865 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 666
+E0108 23:01:18.613395 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:18.676201 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 667
+E0108 23:01:18.676690 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:18.739445 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 668
+E0108 23:01:18.739872 17698 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:18.740105 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:18.802731 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 669
+E0108 23:01:18.803184 17698 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:18.857620 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 246 now instanceid 245
+E0108 23:01:18.865907 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 670
+E0108 23:01:18.927772 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 246 now instanceid 248
+E0108 23:01:18.928998 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 671
+E0108 23:01:18.992363 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 672
+E0108 23:01:19.055749 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 673
+E0108 23:01:19.092187 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 248 now instanceid 248
+E0108 23:01:19.118901 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 674
+E0108 23:01:19.182147 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 675
+E0108 23:01:19.192597 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:19.245386 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 676
+E0108 23:01:19.308665 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 677
+E0108 23:01:19.372083 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 678
+E0108 23:01:19.435587 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 679
+E0108 23:01:19.449965 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 250 now instanceid 251
+E0108 23:01:19.499260 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 680
+E0108 23:01:19.575673 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 681
+E0108 23:01:19.638757 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 682
+E0108 23:01:19.691798 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 250 now instanceid 250
+E0108 23:01:19.724057 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 683
+E0108 23:01:19.787338 17703 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 684
+E0108 23:01:19.850606 17706 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 685
+E0108 23:01:19.851058 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:19.851084 17698 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:19.851594 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:19.851979 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:19.913980 17709 logger_google.cpp:99] ERR: PN5phxkv8KVClientE::Get LevelDB.Get not found, key 686
+E0108 23:01:20.070533 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:20.188417 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:20.402655 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:20.433957 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 251
+E0108 23:01:20.969130 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 251
+E0108 23:01:21.002868 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:21.151588 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:21.280200 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:21.620054 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:21.886488 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 251
+E0108 23:01:21.902968 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:21.968732 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:22.078779 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:22.402451 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:22.604910 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:22.641687 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 252
+E0108 23:01:23.026218 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:23.220610 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:23.451225 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:23.612890 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 252
+E0108 23:01:23.754534 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:23.884773 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:24.039362 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:24.095149 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:24.217187 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 252
+E0108 23:01:24.518740 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:24.646113 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:25.053536 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 252
+E0108 23:01:25.182936 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:25.383292 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:25.506831 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:25.642747 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:25.654170 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:25.956437 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:26.128091 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:26.581951 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:26.911267 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:26.926612 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:26.994693 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:27.050539 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:27.050704 17709 logger_google.cpp:99] [41;37m ERR(2): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:27.106273 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:27.386283 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:27.554632 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:27.800858 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:28.074656 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:28.360044 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:28.511186 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:28.872001 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 253
+E0108 23:01:29.147820 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:29.312409 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:29.345357 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:29.741200 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:29.983018 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:29.986606 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:30.045477 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:30.175550 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:30.273599 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:30.521768 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:30.963783 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 254
+E0108 23:01:30.994659 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:31.035866 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:31.166927 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:31.845067 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:31.932981 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:31.954180 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:32.655952 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:32.696364 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:32.764284 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:33.232887 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:33.267227 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:33.573320 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 261
+E0108 23:01:33.646466 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 255
+E0108 23:01:33.651552 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:33.735390 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:34.263741 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:34.400704 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 261
+E0108 23:01:34.401638 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:34.677470 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:34.962841 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:34.995781 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:35.015090 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:35.215883 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:35.699159 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:35.703967 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 256
+E0108 23:01:35.755576 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:35.765378 17703 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:35.822304 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:35.899072 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:36.124258 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:36.180290 17706 logger_google.cpp:99] [41;37m ERR(1): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 23:01:36.360577 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:36.415334 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:36.610392 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:36.765441 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:36.975675 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:37.354905 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 260
+E0108 23:01:37.444142 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:37.471699 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 263
+E0108 23:01:37.666747 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:38.225901 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 263
+E0108 23:01:38.317286 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 261
+E0108 23:01:38.555933 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 257
+E0108 23:01:38.795229 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 263
+E0108 23:01:38.932384 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:39.110239 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:39.160127 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:39.314473 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 261
+E0108 23:01:39.408414 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 264
+E0108 23:01:40.063617 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 264
+E0108 23:01:40.112331 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:40.279830 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 261
+E0108 23:01:40.553045 17712 logger_google.cpp:99] STATUS(1): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:40.801012 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:40.949482 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 258
+E0108 23:01:40.966794 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 264
+E0108 23:01:41.146313 17711 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:41.487861 17713 logger_google.cpp:99] STATUS(2): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 23:01:41.534337 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:41.631644 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259
+E0108 23:01:41.858952 17710 logger_google.cpp:99] STATUS(2): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 265
+E0108 23:01:42.073469 17707 logger_google.cpp:99] STATUS(1): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 262
+E0108 23:01:42.131834 17704 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid 253 now instanceid 259

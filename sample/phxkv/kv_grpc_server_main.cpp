@@ -131,16 +131,7 @@ int main(int argc, char ** argv)
 
     NLDebug("server init ok.............................");
 
-    ServerBuilder oBuilder;
-
-    oBuilder.AddListeningPort(sServerAddress, grpc::InsecureServerCredentials());
-
-    oBuilder.RegisterService(&oPhxKVServer);
-
-    std::unique_ptr<Server> server(oBuilder.BuildAndStart());
-    std::cout << "Server listening on " << sServerAddress << std::endl;
-
-    server->Wait();
+    oPhxKVServer.run(sServerAddress);
 
     return 0;
 }

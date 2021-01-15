@@ -1,0 +1,92 @@
+Log file created at: 2021/01/08 06:58:18
+Running on machine: SLOT1-4
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0108 06:58:18.271144 17838 logger_google.cpp:99] init_glog_warning_file
+E0108 06:58:18.368655 17839 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0108 06:58:18.433009 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 999
+E0108 06:58:19.317128 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 999
+E0108 06:58:19.868255 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 999
+E0108 06:58:20.400972 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:20.655436 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 999
+E0108 06:58:21.421247 17838 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos9CommitCtxE::GetResult commit fail, ret 14 [0m
+E0108 06:58:21.421301 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:21.562574 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1004
+E0108 06:58:22.071727 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1020
+E0108 06:58:22.436125 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:22.595726 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1038
+E0108 06:58:23.119967 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1058
+E0108 06:58:23.467650 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:23.814150 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1080
+E0108 06:58:24.325472 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1094
+E0108 06:58:24.474663 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:24.493360 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:25.159662 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1123
+E0108 06:58:25.494041 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:25.701965 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1144
+E0108 06:58:26.289119 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1168
+E0108 06:58:26.518241 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:27.025971 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:27.052322 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1193
+E0108 06:58:27.535890 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:28.040536 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1226
+E0108 06:58:28.551759 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:28.563776 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1245
+E0108 06:58:29.310806 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1271
+E0108 06:58:29.578449 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:30.216111 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1304
+E0108 06:58:30.598167 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:31.120530 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1336
+E0108 06:58:31.616253 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:32.007656 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1368
+E0108 06:58:32.117161 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:32.557309 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:32.619936 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:32.759999 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1397
+E0108 06:58:33.617187 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1425
+E0108 06:58:33.634692 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:34.382352 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1449
+E0108 06:58:34.648983 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:34.995504 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1469
+E0108 06:58:35.662171 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:35.972843 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1500
+E0108 06:58:36.510902 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1519
+E0108 06:58:36.681598 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:37.048055 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1537
+E0108 06:58:37.382095 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:37.672384 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1561
+E0108 06:58:37.686522 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:38.359591 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1584
+E0108 06:58:38.706306 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:38.878815 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1601
+E0108 06:58:39.719831 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:39.746726 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1630
+E0108 06:58:40.444941 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1655
+E0108 06:58:40.726171 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:40.964109 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1674
+E0108 06:58:41.539324 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1692
+E0108 06:58:41.750806 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:42.117512 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1711
+E0108 06:58:42.756292 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:42.912988 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:42.920683 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1736
+E0108 06:58:43.269397 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:43.642987 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1761
+E0108 06:58:43.757189 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:44.415164 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1790
+E0108 06:58:44.770771 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:44.949862 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1808
+E0108 06:58:45.677037 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1832
+E0108 06:58:45.777362 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:45.922219 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:46.447242 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1856
+E0108 06:58:46.813980 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:47.083215 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1879
+E0108 06:58:47.838997 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:47.895339 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1908
+E0108 06:58:48.225325 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:48.490480 17841 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:48.592583 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1931
+E0108 06:58:48.839783 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:49.277729 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1955
+E0108 06:58:49.876468 17838 logger_google.cpp:99] STATUS(0): PN8phxpaxos9CommitterE::LogStatus wait threads 0 avg thread wait ms 0 reject rate 0
+E0108 06:58:50.083813 17842 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1978

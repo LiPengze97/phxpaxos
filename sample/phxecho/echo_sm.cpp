@@ -33,8 +33,8 @@ PhxEchoSM :: PhxEchoSM()
 bool PhxEchoSM :: Execute(const int iGroupIdx, const uint64_t llInstanceID, 
         const std::string & sPaxosValue, SMCtx * poSMCtx)
 {
-    printf("[SM Execute] ok, smid %d instanceid %lu value %s\n", 
-            SMID(), llInstanceID, sPaxosValue.c_str());
+    printf("[SM Execute] ok, smid %d instanceid %lu value %lu\n", 
+            SMID(), llInstanceID, sPaxosValue.size());
 
     //only commiter node have SMCtx.
     if (poSMCtx != nullptr && poSMCtx->m_pCtx != nullptr)

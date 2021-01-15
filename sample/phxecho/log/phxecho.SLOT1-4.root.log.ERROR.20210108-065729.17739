@@ -1,0 +1,464 @@
+Log file created at: 2021/01/08 06:57:29
+Running on machine: SLOT1-4
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0108 06:57:29.012606 17739 logger_google.cpp:99] init_glog_warning_file
+E0108 06:57:29.086659 17740 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos13AcceptorStateE::Load empty database [0m
+E0108 06:57:29.086704 17740 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos8DatabaseE::GetMinChosenInstanceID no min chosen instanceid [0m
+E0108 06:57:29.087080 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 06:57:29.862203 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 06:57:30.363360 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 06:57:31.336535 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 0
+E0108 06:57:32.223666 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 4
+E0108 06:57:33.144814 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 37
+E0108 06:57:33.808010 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 71
+E0108 06:57:34.371294 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 90
+E0108 06:57:34.851989 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:57:35.273468 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 128
+E0108 06:57:35.982784 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 170
+E0108 06:57:36.690276 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 206
+E0108 06:57:37.574585 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 249
+E0108 06:57:38.248869 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 278
+E0108 06:57:38.854176 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 308
+E0108 06:57:39.834362 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 353
+E0108 06:57:40.775753 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 396
+E0108 06:57:41.353941 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 423
+E0108 06:57:42.246261 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 470
+E0108 06:57:42.336302 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:57:43.206176 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 511
+E0108 06:57:43.804417 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 540
+E0108 06:57:44.766134 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 583
+E0108 06:57:45.397363 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 618
+E0108 06:57:46.096673 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 648
+E0108 06:57:46.901842 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 681
+E0108 06:57:47.636008 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 719
+E0108 06:57:48.139156 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:57:48.449075 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 750
+E0108 06:57:49.246237 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 781
+E0108 06:57:50.195768 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 826
+E0108 06:57:50.856066 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 855
+E0108 06:57:51.556139 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 886
+E0108 06:57:52.393304 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 921
+E0108 06:57:53.152616 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 961
+E0108 06:57:53.659056 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:57:53.992887 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 988
+E0108 06:57:54.706225 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:55.230513 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:55.830701 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:56.576905 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:56.614259 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::OnRead read head fail, readlen 0, socket broken [0m
+E0108 06:57:56.614334 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 1 socketfd 24 socket ip 127.0.0.1 errno 0 [0m
+E0108 06:57:57.394191 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:58.112466 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:59.027822 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:57:59.580142 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:00.371340 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:00.731869 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 0 [0m
+E0108 06:58:00.931316 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:00.931368 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:01.131693 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:01.131930 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:01.265533 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:01.332007 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:01.332058 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:01.531256 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:01.531497 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:01.731262 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:01.731314 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:01.931788 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:01.931840 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.058727 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:02.131309 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:02.131520 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.331238 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:02.331470 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.531263 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:02.531482 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.731592 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:02.731725 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.931766 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:02.931823 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:02.974157 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:03.131618 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:03.131836 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:03.331792 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:03.331845 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:03.531320 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:03.531371 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:03.731680 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:03.731735 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:03.880450 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:03.931381 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:03.931437 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:04.131705 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:04.131948 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:04.332038 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:04.332091 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:04.407809 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:04.532214 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:04.532438 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:04.732885 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:04.732941 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:04.932685 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:04.932739 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.133070 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:05.133177 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.187970 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:05.333254 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:05.333475 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.533684 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:05.533736 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.733446 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:05.733500 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.933709 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:05.933756 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:05.992115 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:06.133451 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:06.133689 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:06.334074 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:06.334127 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:06.534708 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:06.534911 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:06.648303 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:06.734314 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:06.734405 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:06.935055 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:06.935106 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:07.135665 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:07.135735 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:07.336185 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:07.336236 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:07.368613 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:07.536939 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:07.537099 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:07.737735 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:07.737785 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:07.938181 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:07.938232 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:08.028813 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:08.139242 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:08.139492 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:08.340209 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:08.340412 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:08.540511 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:08.540563 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:08.740783 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:08.740836 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:08.904114 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:08.940902 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:08.940953 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:09.141002 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:09.141209 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:09.341450 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:09.341501 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:09.541555 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:09.541607 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:09.551270 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:09.742202 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:09.742256 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:09.943235 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:09.943486 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:10.143858 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:10.144064 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:10.343597 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:10.343649 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:10.473440 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:10.544221 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:10.544272 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:10.744742 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:10.744794 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:10.945201 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:10.945253 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:11.146129 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:11.146212 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:11.180595 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:11.346522 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:11.346575 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:11.547258 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:11.547310 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:11.747881 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:11.747934 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:11.820775 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:11.947754 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:11.947970 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:12.147972 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:12.148063 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:12.348333 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:12.348390 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:12.471053 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:12.549094 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:12.549147 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:12.750070 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:12.750123 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:12.950740 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:12.950793 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:13.150236 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:13.150359 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:13.350769 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:13.350824 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:13.412242 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:13.551261 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:13.551313 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:13.752136 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:13.752188 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:13.952360 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:13.952560 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:14.152684 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:14.152956 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:14.224442 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:14.353204 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:14.353260 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:14.554306 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:14.554358 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:14.755221 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:14.755378 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:14.955312 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:14.955363 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:15.155916 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:15.155968 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:15.217643 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:15.355903 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:15.355958 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:15.555405 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:15.555461 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:15.756238 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:15.756289 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:15.803817 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:15.956391 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:15.956604 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:16.156916 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:16.157112 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:16.316970 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:16.357758 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:16.357810 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:16.557287 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:16.557339 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:16.757478 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:16.757689 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:16.957216 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:16.957267 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:17.157991 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:17.158124 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:17.186260 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:17.358906 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:17.359058 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:17.558707 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:17.558936 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:17.758826 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:17.758873 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:17.812508 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:17.958653 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:17.958709 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:18.158836 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:18.159041 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:18.358940 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:18.359166 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:18.559857 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:18.577692 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:19.516881 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:20.417126 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:21.384407 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1000
+E0108 06:58:22.369048 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1029
+E0108 06:58:23.022632 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1055
+E0108 06:58:23.808781 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1080
+E0108 06:58:24.196478 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:24.747964 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1109
+E0108 06:58:25.307693 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1129
+E0108 06:58:25.969295 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1154
+E0108 06:58:26.815557 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1186
+E0108 06:58:27.453918 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1205
+E0108 06:58:28.438118 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1240
+E0108 06:58:29.131258 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1265
+E0108 06:58:29.795565 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1288
+E0108 06:58:30.302717 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1306
+E0108 06:58:31.247869 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1341
+E0108 06:58:31.769289 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1361
+E0108 06:58:32.531697 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1389
+E0108 06:58:33.091733 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1408
+E0108 06:58:33.633931 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1425
+E0108 06:58:34.548069 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1455
+E0108 06:58:35.372310 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1479
+E0108 06:58:36.005612 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1502
+E0108 06:58:36.607751 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1522
+E0108 06:58:37.175904 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1542
+E0108 06:58:37.421860 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:58:37.822268 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1566
+E0108 06:58:38.577453 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1591
+E0108 06:58:39.346627 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1617
+E0108 06:58:40.035274 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1642
+E0108 06:58:40.640331 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1664
+E0108 06:58:40.683933 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:58:41.277535 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1684
+E0108 06:58:42.147719 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1712
+E0108 06:58:42.890229 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1735
+E0108 06:58:43.624418 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1761
+E0108 06:58:44.223604 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1783
+E0108 06:58:45.192791 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1817
+E0108 06:58:45.969350 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1843
+E0108 06:58:46.709482 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1865
+E0108 06:58:47.242600 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1885
+E0108 06:58:48.004734 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1911
+E0108 06:58:48.526337 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:58:48.805902 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1938
+E0108 06:58:49.765262 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1969
+E0108 06:58:50.350430 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 1986
+E0108 06:58:51.092619 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:51.814803 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:52.502107 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:53.104072 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::OnRead read head fail, readlen 0, socket broken [0m
+E0108 06:58:53.104149 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 1 socketfd 27 socket ip 127.0.0.1 errno 0 [0m
+E0108 06:58:53.339468 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:54.255844 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:55.152163 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:55.982489 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:56.895490 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:57.383239 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 26 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:58:57.584164 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:58:57.667824 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:58.403139 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2000
+E0108 06:58:59.392385 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2009
+E0108 06:59:00.014653 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2034
+E0108 06:59:00.123685 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:59:00.519948 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2056
+E0108 06:59:01.476110 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2104
+E0108 06:59:02.355355 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2144
+E0108 06:59:02.888528 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2162
+E0108 06:59:03.046205 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:59:03.568737 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2189
+E0108 06:59:04.491044 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2223
+E0108 06:59:05.374397 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2260
+E0108 06:59:05.696584 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:59:06.232594 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2301
+E0108 06:59:06.965768 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2329
+E0108 06:59:07.615058 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2356
+E0108 06:59:08.412427 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2393
+E0108 06:59:08.582861 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:59:09.178725 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2426
+E0108 06:59:09.955915 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2454
+E0108 06:59:10.824092 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2489
+E0108 06:59:11.021168 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:59:11.793269 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2531
+E0108 06:59:12.451547 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2559
+E0108 06:59:13.093691 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2581
+E0108 06:59:13.693991 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2611
+E0108 06:59:14.165051 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:59:14.665155 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2651
+E0108 06:59:15.646360 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2695
+E0108 06:59:16.190650 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2720
+E0108 06:59:16.419943 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:59:17.085824 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2756
+E0108 06:59:17.600056 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2779
+E0108 06:59:18.375285 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2814
+E0108 06:59:19.200512 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2839
+E0108 06:59:19.770699 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnAskforLearn LearnerSender working for others. [0m
+E0108 06:59:20.099647 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2875
+E0108 06:59:20.758711 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2904
+E0108 06:59:21.505996 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2939
+E0108 06:59:22.333278 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 2973
+E0108 06:59:22.421794 17742 logger_google.cpp:99] [41;37m ERR(0): PN8phxpaxos7LearnerE::OnSendNowInstanceID Lag msg, skip [0m
+E0108 06:59:23.075632 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:23.920974 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:24.440199 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:25.049374 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:25.114570 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::OnRead read head fail, readlen 0, socket broken [0m
+E0108 06:59:25.114645 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 1 socketfd 26 socket ip 127.0.0.1 errno 0 [0m
+E0108 06:59:25.808559 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:26.557849 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:27.338057 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:27.938355 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:28.173780 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:28.373564 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:28.373615 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:28.574082 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:28.582566 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:28.741719 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:28.782510 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:28.782562 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:28.982821 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:28.982873 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:29.182381 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:29.182435 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:29.382581 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:29.382632 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:29.440910 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:29.583001 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:29.583060 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:29.783191 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:29.783243 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:29.984247 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:29.984336 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:30.184399 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:30.184458 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:30.358314 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:30.384655 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:30.384707 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:30.584832 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:30.584936 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:30.784623 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:30.784674 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:30.943583 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:30.985035 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:30.985090 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:31.185457 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:31.185510 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:31.385578 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:31.385628 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:31.580983 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:31.585573 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:31.585628 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:31.785311 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:31.785363 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:31.985286 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:31.985343 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:32.185734 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:32.185799 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:32.386114 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:32.386236 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:32.404146 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:32.587020 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:32.587074 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:32.787955 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:32.788007 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:32.987499 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:32.987551 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:33.188278 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:33.188330 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:33.228382 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:33.388309 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:33.388360 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:33.588397 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:33.594341 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:33.739553 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:33.794695 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:33.794746 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:33.994208 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:33.994259 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:34.194790 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:34.194852 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:34.395067 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:34.395251 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:34.411736 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:34.596235 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:34.596294 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:34.796734 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:34.796836 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:34.916961 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:34.996564 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:34.996748 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:35.196825 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:35.196871 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:35.396564 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:35.396616 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:35.596541 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:35.596769 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:35.729264 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:35.796684 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:35.796870 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:35.839242 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::OnRead read head fail, readlen 0, socket broken [0m
+E0108 06:59:35.839327 17748 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 1 socketfd 23 socket ip 127.0.0.1 errno 0 [0m
+E0108 06:59:35.997067 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:35.997260 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:36.198133 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:36.198359 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m
+E0108 06:59:36.243638 17743 logger_google.cpp:99] STATUS(0): PN8phxpaxos7CleanerE::run sleep a while, max deleted instanceid 0 checkpoint instanceid (no checkpoint) now instanceid 3000
+E0108 06:59:36.398409 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos12MessageEventE::ReConnect start, ip 127.0.0.1 [0m
+E0108 06:59:36.398615 17747 logger_google.cpp:99] [41;37m ERR: PN8phxpaxos9EventLoopE::OnError event error, events 28 socketfd 24 socket ip 127.0.0.1 errno 115 [0m

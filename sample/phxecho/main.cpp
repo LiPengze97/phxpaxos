@@ -31,7 +31,14 @@ using namespace phxecho;
 using namespace phxpaxos;
 using namespace std;
 
-int parse_ipport(const char * pcStr, NodeInfo & oNodeInfo)
+inline uint64_t get_time_us()
+{
+    struct timespec ts;
+    clock_gettime(CLOCK_REALTIME, &ts);
+    return ts.tv_sec * 1000000 + ts.tv_nsec / 1000;
+}
+
+int parse_ipport(const char *pcStr, NodeInfo &oNodeInfo)
 {
     char sIP[32] = {0};
     int iPort = -1;
@@ -47,7 +54,7 @@ int parse_ipport(const char * pcStr, NodeInfo & oNodeInfo)
     return 0;
 }
 
-int parse_ipport_list(const char * pcStr, NodeInfoList & vecNodeInfoList)
+int parse_ipport_list(const char *pcStr, NodeInfoList &vecNodeInfoList)
 {
     string sTmpStr;
     int iStrLen = strlen(pcStr);
@@ -60,7 +67,7 @@ int parse_ipport_list(const char * pcStr, NodeInfoList & vecNodeInfoList)
             {
                 sTmpStr += pcStr[i];
             }
-            
+
             NodeInfo oNodeInfo;
             int ret = parse_ipport(sTmpStr.c_str(), oNodeInfo);
             if (ret != 0)
@@ -81,7 +88,7 @@ int parse_ipport_list(const char * pcStr, NodeInfoList & vecNodeInfoList)
     return 0;
 }
 
-int main(int argc, char ** argv)
+int main(int argc, char **argv)
 {
     if (argc < 3)
     {
@@ -113,22 +120,42 @@ int main(int argc, char ** argv)
     printf("echo server start, ip %s port %d\n", oMyNode.GetIP().c_str(), oMyNode.GetPort());
 
     string sEchoReqValue;
-    while (true)
+    // while (true)
+    // {
+    printf("\nplease input: <echo req value>\n");
+    getline(cin, sEchoReqValue);
+    string sEchoRespValue;
+    // ret = oEchoServer.Echo(sEchoReqValue, sEchoRespValue);
+    // if (ret != 0)
+    // {
+    //     printf("Echo fail, ret %d\n", ret);
+    // }
+    // else
+    // {
+    //     printf("echo resp value %s\n", sEchoRespValue.c_str());
+    // }
+    int msg_size = 1000;
+
+    char *payload = static_cast<char *>(malloc(msg_size));
+    for (int i = 0; i < msg_size; i++)
     {
-        printf("\nplease input: <echo req value>\n");
-        getline(cin, sEchoReqValue);
-        string sEchoRespValue;
-        ret = oEchoServer.Echo(sEchoReqValue, sEchoRespValue);
+        payload[i] = '0' + (i % 10);
+    }
+    uint64_t start_time = get_time_us();
+    for (int i = 0; i < std::atoi(sEchoReqValue.c_str()); i++)
+    {
+        ret = oEchoServer.Echo(payload, sEchoRespValue);
         if (ret != 0)
         {
             printf("Echo fail, ret %d\n", ret);
         }
         else
         {
-            printf("echo resp value %s\n", sEchoRespValue.c_str());
+            printf("echo resp value %lu\n", sEchoRespValue.size());
         }
     }
+    printf("%d messages used %lu ms\n", std::atoi(sEchoReqValue.c_str()), (get_time_us() - start_time)/1000);
+    // }
 
     return 0;
 }
-
